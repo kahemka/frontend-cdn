@@ -143,7 +143,7 @@ const App = () => {
   
   return (
     <div className="container-fluid py-4">
-      <h1 className="mb-4 text-center">React Plotly Dashboard</h1>
+      <h1 className="mb-4 text-center">Smart Analytics & Modelling</h1>
       
       <div className="row">
         {/* Vertical Tabs */}
@@ -159,7 +159,7 @@ const App = () => {
               aria-selected={activeTab === 'table'}
             >
               <i className="bi bi-table me-2"></i>
-              Data Table
+              Data
             </button>
             <button 
               className={`nav-link ${activeTab === 'bar' ? 'active' : ''}`} 
@@ -171,7 +171,7 @@ const App = () => {
               aria-selected={activeTab === 'bar'}
             >
               <i className="bi bi-bar-chart me-2"></i>
-              Bar Chart
+              Features
             </button>
             <button 
               className={`nav-link ${activeTab === 'line' ? 'active' : ''}`} 
@@ -183,7 +183,7 @@ const App = () => {
               aria-selected={activeTab === 'line'}
             >
               <i className="bi bi-graph-up me-2"></i>
-              Line Chart
+              Modelling
             </button>
             <button 
               className={`nav-link ${activeTab === 'pie' ? 'active' : ''}`} 
@@ -195,7 +195,7 @@ const App = () => {
               aria-selected={activeTab === 'pie'}
             >
               <i className="bi bi-pie-chart me-2"></i>
-              Pie Chart
+              Results
             </button>
           </div>
         </div>
