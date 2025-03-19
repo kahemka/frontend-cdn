@@ -143,7 +143,7 @@ const App = () => {
   
   return (
     <div className="container-fluid py-4">
-      <h1 className="mb-4 text-center">Smart Analytics & Modelling</h1>
+      <h1 className="mb-4 text-center">Smart Analytics Modelling</h1>
       
       <div className="row">
         {/* Vertical Tabs */}
